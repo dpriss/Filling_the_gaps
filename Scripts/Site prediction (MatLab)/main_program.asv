@@ -216,9 +216,9 @@ annotation('textarrow', [0.1, 0.9], [0.025, 0.025], 'String', '', 'Color', 'k', 
 annotation('textarrow', [0.075, 0.075], [0.1, 0.9], 'String', '', 'Color', 'k', 'HeadStyle', 'plain')
 
 % Add directional arrows with labels
-text(0.05, -0.075, '', 'Units', 'normalized', 'FontSize', 14, 'HorizontalAlignment', 'right')
+text(0.05, -0.075, 'West', 'Units', 'normalized', 'FontSize', 14, 'HorizontalAlignment', 'right')
 text(1.0,-0.075, 'East', 'Units', 'normalized', 'FontSize', 14, 'HorizontalAlignment', 'left')
-text(-0.075, -0.03, '', 'Units', 'normalized', 'FontSize', 14, 'HorizontalAlignment', 'center')
+text(-0.075, -0.03, 'South', 'Units', 'normalized', 'FontSize', 14, 'HorizontalAlignment', 'center')
 text(-0.075, 1, 'North', 'Units', 'normalized', 'FontSize', 14, 'HorizontalAlignment', 'center')
 
 hold on;

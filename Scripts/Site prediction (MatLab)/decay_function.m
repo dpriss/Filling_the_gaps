@@ -1,11 +1,11 @@
 function [t] = decay_function
 
-global function_id
+global function_id b R1 R2
 % function 1 
 if function_id == 1
-    b = 100; 
-    R1 = 500;
-    R2 = 500;
+%     b = 750; 
+%     R1 = 250;
+%     R2 = 250;
     t = @(r,a)((1./(1+exp((a-R1)/b))).*(1./(1+exp((r-R2)/b))));
 elseif function_id == 2
     'No decay function specified for this function id'

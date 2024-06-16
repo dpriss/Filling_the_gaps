@@ -30,7 +30,7 @@ if plots==1
 %     axis equal
 
     figure()
-    set(gcf, 'Position', get(0, 'Screensize'));
+%     set(gcf, 'Position', get(0, 'Screensize'));
     plot(sites.x,sites.y,'*','MarkerSize',4, 'Color', 'r')
     hold on
     line([roads.xs';roads.xe'],[roads.ys';roads.ye'],'Color','b')
